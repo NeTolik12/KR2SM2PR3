@@ -1,25 +1,24 @@
 {
-  "name": "kr-2-sm-2-pr-3",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "react-recips",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NeTolik12/KR2_SM2_PR3_V2.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NeTolik12/KR2_SM2_PR3_V2/issues"
-  },
-  "homepage": "https://github.com/NeTolik12/KR2_SM2_PR3_V2#readme",
-  "description": "",
   "dependencies": {
-    "next": "^15.3.3",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.1",
+    "@eslint/eslintrc": "^3"
   }
 }
